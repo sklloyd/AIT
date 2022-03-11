@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_put_character.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sklloyd <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: spatel <spatel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 13:42:59 by sklloyd           #+#    #+#             */
-/*   Updated: 2022/03/11 13:44:39 by mmorriga         ###   ########.fr       */
+/*   Updated: 2022/03/11 13:57:57 by spatel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
+	break ;
 }

@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_put_string.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sklloyd <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: spatel <spatel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 13:43:58 by sklloyd           #+#    #+#             */
-/*   Updated: 2022/03/11 13:44:25 by mmorriga         ###   ########.fr       */
+/*   Updated: 2022/03/11 13:58:48 by spatel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 void	ft_putstr_fd(char *s, int fd)
 {
 	write(fd, s, ft_strlen(s));
+	break ;
 }

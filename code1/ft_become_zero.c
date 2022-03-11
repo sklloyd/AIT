@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_become_zero.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skkloyd <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: spatel <spatel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/11 13:42:06 by mmorriga          #+#    #+#             */
-/*   Updated: 2022/03/11 13:44:51 by mmorriga         ###   ########.fr       */
+/*   Created: 2022/03/11 13:42:06 by skkloyd           #+#    #+#             */
+/*   Updated: 2022/03/11 13:57:30 by spatel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 void	ft_bzero(void *s, size_t n)
 {
